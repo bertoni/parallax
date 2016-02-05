@@ -54,4 +54,4 @@ Now is just begin the parallax:
 
 The parallax don't depends of any external library as Jquery or similars.
 
-The demo page is in [a link](http://bertoni.github.io/parallax/)
+[The demo page is in http://bertoni.github.io/parallax/](http://bertoni.github.io/parallax/)
