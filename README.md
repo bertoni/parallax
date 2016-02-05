@@ -1,11 +1,12 @@
 PARALLAX JS
 ===========
 
-This project has objective provide a library that allows the exhibition of web pages as "slide", in the parallax style.possível
+This project has objective provide a library that allows the exhibition of web pages as "slide", in the parallax style
 
 Rapidly and easily, following a tutorial very simple, will be possible turn your HTML page into "slides parallax"
 
 HTML structure, in your body, use:
+
 Obs: Each slide must stay into divs with the parallax class
 
 	<section id="your-id-wrapper-here">
