@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Parallax Box</title>
+		<link type="text/css" rel="stylesheet" href="css/parallax-scroll.css" />
+		<style type="text/css">
+			.parallax { width: 90%; height: 90%; padding: 5%; }
+			h2 { text-align: center; font-size: 4em; }
+			img { display: block; margin: 0 auto; }
+		</style>
+	</head>
+	<body>
+		<section id="parallax">
+			<div class="parallax">
+				<h2>Primeiro Slide!</h2>
+				<img src="http://placehold.it/500x500?text=Primeiro+Slide!" />
+			</div>
+			<div class="parallax">
+				<h2>Segundo Slide!</h2>
+				<img src="http://placehold.it/500x500?text=Segundo+Slide!" />
+			</div>
+			<div class="parallax">
+				<h2>Terceiro Slide!</h2>
+				<img src="http://placehold.it/500x500?text=Terceiro+Slide!" />
+			</div>
+			<div class="parallax">
+				<h2>Quarto Slide!</h2>
+				<img src="http://placehold.it/500x500?text=Quarto+Slide!" />
+			</div>
+			<div class="parallax">
+				<h2>Quinto Slide!</h2>
+				<img src="http://placehold.it/500x500?text=Quinto+Slide!" />
+			</div>
+		</section>
+    
+		<script type="text/javascript" src="js/parallax-scroll.js"></script>
+		<script type="text/javascript">
+			window.onload = function(){
+				var parallax = new Parallax();
+				parallax.init({
+					wrapper: 'parallax'
+				});
+			}
+		</script>
+    </body>
+</html>
